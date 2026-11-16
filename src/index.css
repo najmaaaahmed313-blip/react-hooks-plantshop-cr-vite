@@ -1,5 +1,5 @@
 :root {
-  --green: rgb(39, 189, 39);
+  --green: rgb(178, 224, 178);
 }
 
 * {
@@ -25,7 +25,7 @@ button {
 
 button.primary {
   background-color: var(--green);
-  color: white;
+  color: rgb(16, 14, 14);
 }
 
 .app {
@@ -54,7 +54,7 @@ main {
 .new-plant-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
+  background-color: rgba(74, 104, 74, 0.5);
 }
 
 .new-plant-form form {
@@ -87,7 +87,7 @@ input {
   border: none;
   font-family: inherit;
   font-size: 1.2em;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid rgb(44, 39, 39);
   transition: all 0.2s;
   width: 100%;
 }
